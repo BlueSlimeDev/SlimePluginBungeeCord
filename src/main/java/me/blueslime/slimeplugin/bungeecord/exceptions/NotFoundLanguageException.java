@@ -1,4 +1,4 @@
-package me.blueslime.slimeplugin.velocity.exceptions;
+package me.blueslime.slimeplugin.bungeecord.exceptions;
 
 public class NotFoundLanguageException extends Exception {
 

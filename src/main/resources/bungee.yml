@@ -1,0 +1,4 @@
+name: SlimePluginBungeeCord
+version: '${project.version}'
+main: me.blueslime.slimeplugin.bungeecord.Main
+description: BungeeCord Template for a plugin using SlimeLIB

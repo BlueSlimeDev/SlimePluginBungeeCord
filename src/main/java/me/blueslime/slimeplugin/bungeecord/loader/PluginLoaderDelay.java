@@ -1,7 +1,7 @@
-package me.blueslime.slimeplugin.velocity.loader;
+package me.blueslime.slimeplugin.bungeecord.loader;
 
-import me.blueslime.slimeplugin.velocity.Main;
-import me.blueslime.slimeplugin.velocity.SlimeFile;
+import me.blueslime.slimeplugin.bungeecord.Main;
+import me.blueslime.slimeplugin.bungeecord.SlimeFile;
 public class PluginLoaderDelay implements Runnable {
 
     private final Main main;

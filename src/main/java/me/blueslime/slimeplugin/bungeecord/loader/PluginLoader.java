@@ -1,6 +1,5 @@
-package me.blueslime.slimeplugin.velocity.loader;
+package me.blueslime.slimeplugin.bungeecord.loader;
 
-import com.velocitypowered.api.proxy.ProxyServer;
 import dev.mruniverse.slimelib.SlimeStorage;
 import dev.mruniverse.slimelib.file.configuration.ConfigurationHandler;
 import dev.mruniverse.slimelib.file.configuration.ConfigurationProvider;
@@ -8,13 +7,14 @@ import dev.mruniverse.slimelib.file.configuration.provider.BukkitConfigurationPr
 import dev.mruniverse.slimelib.file.input.InputManager;
 import dev.mruniverse.slimelib.loader.BaseSlimeLoader;
 import dev.mruniverse.slimelib.logs.SlimeLogs;
-import me.blueslime.slimeplugin.velocity.Main;
-import me.blueslime.slimeplugin.velocity.SlimeFile;
-import me.blueslime.slimeplugin.velocity.utils.FileUtilities;
+import me.blueslime.slimeplugin.bungeecord.Main;
+import me.blueslime.slimeplugin.bungeecord.SlimeFile;
+import me.blueslime.slimeplugin.bungeecord.utils.FileUtilities;
+import net.md_5.bungee.api.plugin.Plugin;
 
 import java.io.File;
 
-public class PluginLoader extends BaseSlimeLoader<ProxyServer> {
+public class PluginLoader extends BaseSlimeLoader<Plugin> {
 
     private ConfigurationHandler messages = null;
 

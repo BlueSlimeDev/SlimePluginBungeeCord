@@ -1,4 +1,4 @@
-package me.blueslime.slimeplugin.velocity.utils;
+package me.blueslime.slimeplugin.bungeecord.utils;
 
 import dev.mruniverse.slimelib.file.configuration.handlers.util.FileUtils;
 import dev.mruniverse.slimelib.logs.SlimeLogs;
