@@ -1,0 +1,1 @@
+{"id":"slimeplugin","name":"SlimePlugin","version":"${project.version}","authors":["JustJustin"],"dependencies":[],"main":"me.blueslime.slimeplugin.velocity.Main"}

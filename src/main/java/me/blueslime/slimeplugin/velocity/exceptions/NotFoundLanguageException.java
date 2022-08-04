@@ -1,4 +1,4 @@
-package me.blueslime.slimeplugin.spigot.exceptions;
+package me.blueslime.slimeplugin.velocity.exceptions;
 
 public class NotFoundLanguageException extends Exception {
 
